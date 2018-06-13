@@ -3,7 +3,7 @@
 """
 Created on Wed Jun 13 19:21:46 2018
 
-@author: ruicheng
+@author: little-frog
 """
 
 import time
@@ -14,13 +14,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains###专门用来对于element invisiable
 
 url = 'https://qzone.qq.com/'
-path = '/Users/ruicheng/chromedriver01/chromedriver'
+path = 'chromedriver'
 browser = webdriver.Chrome(path)
 wait = WebDriverWait(browser,10)###限定显式等待时间
 
-username = '囧...-_-o'
-qq_number = '1342468180'
-password = '1995_ruicheng'
+username = '小青蛙'
+qq_number = '233333'
+password = '123456'
 text = '这是一条自动发的说说'
 
 def auto_login():
